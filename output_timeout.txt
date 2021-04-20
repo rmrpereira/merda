@@ -1,0 +1,43 @@
+Interaction:
+
+Push Button: '+' to press, '-' to release.
+Door: 'o' to open, 'c' to close.
+Space or '.' to execute the state machine and show system state.
+x to leave.
+(In the terminal, requires Enter to read the input.)
+----------------------------------------------------------------
+	Time	PB	Lock	Door
+----------------------------------------------------------------
+.	  1	-	Unl	Closed
+.	  2	-	Unl	Closed
+.	  3	-	Unl	Closed
+.	  4	-	Unl	Closed
+.	  5	-	Lck	Closed
+.	  6	-	Lck	Closed
+.	  7	-	Lck	Closed
+.	  8	-	Lck	Closed
+.	  9	-	Lck	Closed
+.	 10	-	Lck	Closed
+.	 11	-	Lck	Closed
+.	 12	-	Lck	Closed
+.	 13	-	Lck	Closed
+.	 14	-	Lck	Closed
+.	 15	-	Lck	Closed
++	 15*	+	Lck	Closed
+.	 16	+	Lck	Closed
+-	 16*	-	Lck	Closed
+.	 17	-	Unl	Closed
+.	 18	-	Unl	Closed
+.	 19	-	Unl	Closed
+.	 20	-	Unl	Closed
+.	 21	-	Unl	Closed
+.	 22	-	Lck	Closed
+.	 23	-	Lck	Closed
+.	 24	-	Lck	Closed
+.	 25	-	Lck	Closed
+.	 26	-	Lck	Closed
+.	 27	-	Lck	Closed
+.	 28	-	Lck	Closed
+.	 29	-	Lck	Closed
+.	 30	-	Lck	Closed
+.	 31	-	Lck	Closed
